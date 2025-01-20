@@ -1,1 +1,101 @@
+#Nesse programa de conversao de moedas (moeda não-cotaçao do dia), so existe as seguintes moedas:
+#(Entrada): Real (R$)
+#(Saida): USD ($) EUR(€) LB(£)
 
+import sys
+
+c_dolar=5.00
+c_euro=5.44
+c_libra=6.36
+
+money_c = [c_dolar, c_euro,  c_libra]
+
+while True:
+
+  print("\nSejam Bem-Vindo Para Ao Projeto 'Calculadora De Moedas Estrangeira'")
+
+  asnwer0= str(input("\nSelecione as informaçoes que voce quer: \
+  \n A) Cotação do dia \
+  \n B) Conversor de moeda\
+  \n Digite a opção desejada ou 'sair' para encerrar: "))
+  #Converter o real para a moeda estrangeira
+  if asnwer0 in ["Conversor de moeda" , \
+                 "CONVERSOR DE MOEDA", \
+                 "conversor de moeda", \
+                 "Conversor De Moeda", "B"]:
+        break
+  #Mostrar a cotaçao do dia da moedas ( Dolar, Euro, Libra)
+  elif asnwer0 in ["Cotaçao do dia", "Cotação do dia", \
+                   "COTAÇAO DO DIA", "COTAÇÃO DO DIA", \
+                   "cotação do dia", \
+                   "cotaçao do dia", "A"]:
+    for item in money_c:
+      print(f"\n O valor do dolar: R$ {c_dolar:2.2f}\
+         \n O valor do euro: R$ {c_euro:2.2f}\
+         \n O valor da libra: R$ {c_libra:2.2f}\
+         \n Data Da Cotação: 16/03/2024 - 11:10:23 ")
+      break
+  elif asnwer0 in[ "sair", "SAIR"]:
+    for item in asnwer0:
+      print("Obrigado por usar nosso programa. Até logo!")
+      sys.exit()
+      break
+  else:
+    print("\n Tente Novamente!")
+
+while True:
+  asnwer= float (input("\nDigite quanto que quer converter para outra moeda: R$" ))
+  money = asnwer
+  if  money >= 0.0000 :
+    print(f" O valor convertido sera de: R$ {money}")
+    break
+
+  else:
+    print("Valor invalido!")
+
+dolar=(money)*5.00
+euro=(money)*5.44
+libra=(money)*6.36
+
+money_convert=(euro, dolar, libra)
+
+while True:
+  asnwer2= str(input("Qual moeda deseja que converta para sua atual?"))
+  if asnwer2 in ["Libra", "libra", "LIBRA"] :
+    money_convert = libra
+    print(" Verificando No Sitema...")
+    for _ in range(5):
+      print(" ... ")
+    break
+  elif asnwer2 in[ "sair", "SAIR"]:
+    for item in asnwer0:
+      print("Obrigado por usar nosso programa. Até logo!")
+      sys.exit()
+      break
+  elif asnwer2 in ["Dolar", "dolar","DOLAR"]:
+    money_convert = dolar
+    print(" Verificando No Sitema...")
+    for _ in range(5):
+      print(" ... ")
+    break
+
+  elif asnwer2 in ["Euro" , "euro", "EURO"]:
+    money_convert = euro
+    print(" Verificando No Sitema...")
+    for _ in range(5):
+      print(" ... ")
+    break
+
+
+  else:
+    print (f" Não existe essa moeda no sistema, tente novamente")
+
+
+dolar_ci="$"
+libra_ci="£"
+euro_ci="€"
+
+cifre=(dolar_ci, libra_ci, euro_ci)
+
+
+asnwer3= print(f"O valor covertido do seu dinheiro é: R$ {money_convert:2.2f}"  )
