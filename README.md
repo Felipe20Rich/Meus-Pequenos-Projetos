@@ -5,7 +5,7 @@ Este repositório contém projetos desenvolvidos em **Java** e **Python**, abran
 ## Tecnologias Utilizadas
 
 - **Java**: Desenvolvimento de aplicações, incluindo estrutura de dados e programação orientada a objetos.
-- **Python**: Projetos voltados para **Data Science, Análise de Dados** e automação.
+- **Python**: Projetos voltados para **Data Science, Análise de Dados** e sua blibiotecas.
 
 ## Contato
 
