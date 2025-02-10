@@ -1,5 +1,6 @@
-*.java linguist-language=Java
 *.py linguist-language=Python
+*.java linguist-language=Java
+
 
 git add .gitattributes
 git commit -m 
