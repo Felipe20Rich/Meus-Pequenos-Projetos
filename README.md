@@ -1,6 +1,6 @@
 # Repositório de Projetos
 
-Este repositório contém projetos desenvolvidos em **Java** e **Python**, abrangendo áreas como **Data Science, Análise de Dados** e desenvolvimento de software.
+Este repositório contém projetos desenvolvidos em **Java** e **Python**, abrangendo áreas como **Data Science, Análise de Dados**.
 
 ## Tecnologias Utilizadas
 
