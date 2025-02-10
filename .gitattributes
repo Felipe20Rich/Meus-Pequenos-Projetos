@@ -1,7 +1,0 @@
-*.py linguist-language=Python
-*.java linguist-language=Java
-
-
-git add .gitattributes
-git commit -m 
-git push origin main
