@@ -1,4 +1,4 @@
-# Meus-Pequenos-Projetos
+# Meus Pequenos Projetos
 
 Este repositório contém projetos desenvolvidos em **Java** e **Python**, abrangendo áreas como **Data Science, Análise de Dados** e lógica de programação.
 
