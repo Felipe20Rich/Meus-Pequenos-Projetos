@@ -1,3 +1,2 @@
-*.roff linguist-language=Python
-*.roff linguist-language=Java
-
+*.python linguist-detectable=true
+*.java linguist-detectable=true
