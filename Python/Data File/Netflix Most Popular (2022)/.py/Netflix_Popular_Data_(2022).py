@@ -265,7 +265,7 @@ plt.show()
 
 # **5- Conclusion**
 
-**This project was my first data analysis focused on **data science**, **examining movies and series from** **Netflix (Unofficial)**. **Throughout the study, I identified some interesting patterns. Here are the most relevant findings:**
+**This project was my first data analysis focused on data science, examining movies and series from** **Netflix (Unofficial)**. **Throughout the study, I identified some interesting patterns. Here are the most relevant findings:**
 
 ### **1. Increase in Content Production Over Time**
 - *Until the 2000s, Netflix had a relatively small number of productions.*
