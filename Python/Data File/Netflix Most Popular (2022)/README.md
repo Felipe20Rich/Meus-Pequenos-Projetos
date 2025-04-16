@@ -63,6 +63,6 @@ Through this analysis, we gained valuable insights into the trends of popular Ne
 Additionally, using **machine learning techniques**, we classified and clustered movies based on features such as **duration, year, and ratings**, uncovering hidden patterns in audience preferences. The project also showcased how **data visualization** helps interpret these trends efficiently.  
 
 
-This completes the analysis of Netflix's Popular Data (2022) - Unofficial. 🚀  
+This completes the analysis of Netflix's Popular Data (2022) - Unofficial.
 Feel free to contribute to this repository or suggest new improvements!  
 
