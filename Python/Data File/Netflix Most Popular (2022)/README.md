@@ -64,5 +64,4 @@ Additionally, using **machine learning techniques**, we classified and clustered
 
 
 This completes the analysis of Netflix's Popular Data (2022) - Unofficial.
-Feel free to contribute to this repository or suggest new improvements!  
 
